@@ -18,4 +18,4 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 systemctl enable docker
 systemctl start docker
-usermod -aG docker ubuntu
+usermod -aG docker compadmin
